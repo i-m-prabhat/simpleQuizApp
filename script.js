@@ -17,6 +17,7 @@ nextButton.addEventListener("click", () =>
 function startQuiz()
 {
     startButton.classList.add("hide")
+    document.querySelector("h1").style.display = "none"
     suffledQuestions = questions.sort(() => Math.random() - 0.5);
     correctQuestionIndex = 0;
     questionContainerElement.classList.remove("hide");
@@ -210,7 +211,35 @@ const questions = [
             { text: " <…….!>", correct: false }
         ],
     },
+    {
+        question: "Which of the following elements in HTML5 defines video or movie content?",
+        answers: [
+            { text: "<video>", correct: true },
+            { text: "<movie>", correct: false },
+            { text: "<audio>", correct: false },
+            { text: "<media>", correct: false }
+        ],
+    },
+    {
+        question: "Which of the following is not the element associated with the HTML table layout?",
+        answers: [
+            { text: "alignment", correct: false },
+            { text: "color", correct: true },
+            { text: "size", correct: false },
+            { text: "spanning", correct: false }
+        ],
+    },
+    {
+        question: "Which element is used for or styling HTML5 layout?",
+        answers: [
+            { text: "jQuery", correct: false },
+            { text: "CSS", correct: true },
+            { text: "javaScript", correct: false },
+            { text: "PHP", correct: false }
+        ],
+    },
 ]
+
 function $(element)
 {
     return document.getElementById(element);

@@ -53,6 +53,10 @@ body.wrong {
     /* height: 40px; */
 }
 
+h1 {
+    text-align: center;
+}
+
 .btn:hover {
     border-color: black;
     background-color: rgb(47, 137, 197);
