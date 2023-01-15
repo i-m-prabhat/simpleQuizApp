@@ -6,6 +6,10 @@ This Quiz App Generate Random Quiz.
 
 ## Demo
 
+### URL
+
+<https://i-m-prabhat.github.io/simpleQuizApp/>
+
 <https://user-images.githubusercontent.com/117756490/212554389-f0d8e3bf-c059-4637-afe2-225865077015.mp4>
 
 ## Tutorial
