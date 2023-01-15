@@ -4,11 +4,12 @@ This is The Simple Quiz App Using pure Venilla  JavaScript
 
 This Quiz App Generate Random Quiz.
 
-## Demo
 
-### URL
+## URL
 
 <https://i-m-prabhat.github.io/simpleQuizApp/>
+
+## Demo
 
 <https://user-images.githubusercontent.com/117756490/212554389-f0d8e3bf-c059-4637-afe2-225865077015.mp4>
 
@@ -22,7 +23,7 @@ Now You can See Your Score Also in Right Side
 
 And click on Next button for next Question.
 
-After Answering All the Questions Restart button will appear click to Restart the Game 
+After Answering All the Questions Restart button will appear click to Restart the Game
 
 ## SnapShots
 
