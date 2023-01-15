@@ -17,11 +17,11 @@ body {
 }
 
 body.correct {
-    --hue: var(var(--hue-correct))
+    --hue: var(--hue-correct);
 }
 
 body.wrong {
-    --hue: var(var(--hue-wrong))
+    --hue: var(--hue-wrong);
 }
 
 .container {
@@ -57,10 +57,22 @@ body.wrong {
     background-color: rgb(47, 137, 197);
 }
 
+.btn.correct {
+    --hue: var(--hue-correct);
+
+    color: #000;
+
+}
+
+.btn.wrong {
+    --hue: var(--hue-wrong);
+}
+
 .start-btn,
 .next-btn {
     font-size: 1.5rem;
     font-weight: bold;
+    /* padding: 10px 20px; */
     cursor: pointer;
 }
 
@@ -72,4 +84,19 @@ body.wrong {
 
 .hide {
     display: none;
+}
+
+.score {
+    width: 150px;
+    height: 50px;
+    border: 1px groove white;
+    line-height: 50px;
+    font-size: 35px;
+    margin-left: 10px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+#question {
+    font-size: 30px;
 }
