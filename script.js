@@ -103,39 +103,111 @@ function clearStatusClass(element)
 
 const questions = [
     {
-        question: "which one of these is a javaScript framework ?",
+        question: "What is HTML?",
         answers: [
-            { text: "python", correct: false },
-            { text: "Django", correct: false },
-            { text: "Vue", correct: true },
-            { text: "Eclipse", correct: false }
+            { text: "HTML describes the structure of a webpage", correct: false },
+            { text: "HTML is the standard markup language mainly used to create web pages", correct: false },
+            { text: "HTML consists of a set of elements that helps the browser how to view the content", correct: false },
+            { text: "All of the mentioned", correct: true }
         ],
     },
     {
-        question: "What is 2+2 ?",
+        question: "Who is the father of HTML?",
         answers: [
-            { text: "4", correct: true },
-            { text: "5", correct: false },
-            { text: "3", correct: false },
-            { text: "2", correct: false }
+            { text: "Rasmus Lerdorf", correct: false },
+            { text: "Tim Berners-Lee", correct: true },
+            { text: "Brendan Eich", correct: false },
+            { text: "Sergey Brin", correct: false }
         ],
     },
     {
-        question: "What is 2+2/2 ?",
+        question: "HTML stands for __________",
         answers: [
-            { text: "0", correct: false },
-            { text: "1", correct: false },
-            { text: "3", correct: true },
-            { text: "2", correct: false }
+            { text: "HyperText Machine Language", correct: false },
+            { text: "HyperText Marking Language", correct: false },
+            { text: "HyperText Markup Language", correct: true },
+            { text: "HighText Marking Language", correct: false }
         ],
     },
     {
-        question: "Who is the prime minister of india?",
+        question: "What is the correct syntax of doctype in HTML5?",
         answers: [
-            { text: "Yogi Adityanath", correct: false },
-            { text: "Amit Sah", correct: false },
-            { text: "Rahul Gandhi", correct: false },
-            { text: "Narendra Modi", correct: true }
+            { text: "</doctype html>", correct: false },
+            { text: " <doctype html>", correct: false },
+            { text: "<doctype html!>", correct: false },
+            { text: "<!doctype html>", correct: true }
+        ],
+    },
+    {
+        question: "Which of the following is used to read an HTML page and render it?",
+        answers: [
+            { text: "Web server", correct: false },
+            { text: " Web network", correct: false },
+            { text: "Web browser", correct: true },
+            { text: "Web matrix", correct: false }
+        ],
+    },
+    {
+        question: "Which of the following is not a difference between HTML and XHTML?",
+        answers: [
+            { text: "Charset in both html and xhtml is 'text/html' ", correct: true },
+            { text: " Tags and attributes are case-insensitive in HTML but not in XHTML", correct: false },
+            { text: "Special characters must be escaped using character entities in XHTML unlike HTML", correct: false },
+            { text: "Charset in html is “text/html” where as in xhtml it is 'application/xml+xhtml' ", correct: false }
+        ],
+    },
+    {
+        question: " Which of the following tag is used for inserting the largest heading in HTML?",
+        answers: [
+            { text: "head", correct: false },
+            { text: "<h6>", correct: false },
+            { text: "<h1>", correct: true },
+            { text: "heading", correct: false }
+        ],
+    },
+    {
+        question: "What is DOM in HTML?",
+        answers: [
+            { text: "Language dependent application programming", correct: false },
+            { text: "Hierarchy of objects in ASP.NET", correct: false },
+            { text: "Application programming interface", correct: false },
+            { text: "Convention for representing and interacting with objects in html documents", correct: true }
+        ],
+    },
+    {
+        question: "In which part of the HTML metadata is contained?",
+        answers: [
+            { text: "head tag", correct: true },
+            { text: "title tag", correct: false },
+            { text: "html tag", correct: false },
+            { text: "body tag", correct: false }
+        ],
+    },
+    {
+        question: "Which element is used to get highlighted text in HTML5?",
+        answers: [
+            { text: "<u>", correct: false },
+            { text: "<mark>", correct: true },
+            { text: " <highlight>", correct: false },
+            { text: " <b>", correct: false }
+        ],
+    },
+    {
+        question: "Which of the following is not a HTML5 tag?",
+        answers: [
+            { text: "<track>", correct: false },
+            { text: "<video>", correct: false },
+            { text: "<slider>", correct: true },
+            { text: "<source>", correct: false }
+        ],
+    },
+    {
+        question: " How do we write comments in HTML?",
+        answers: [
+            { text: "</…….>", correct: false },
+            { text: "<!……>", correct: true },
+            { text: "</……/>", correct: false },
+            { text: " <…….!>", correct: false }
         ],
     },
 ]
